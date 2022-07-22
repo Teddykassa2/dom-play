@@ -15,7 +15,6 @@ console.log(spans);
 
 for(const mySpan of spans){
     mySpan.addEventListener("click",function(ev){
-        alert(mySpan.dataset.actor);
         highlightActor(mySpan.dataset.actor);
     });
     //alert(mySpan.dataset.actor);
